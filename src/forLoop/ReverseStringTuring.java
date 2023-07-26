@@ -9,7 +9,7 @@ public class ReverseStringTuring {
         String givenArr = "ab-cde-";
         char[] inputArray = givenArr.toCharArray();
         char [] output = new char[inputArray.length];
-        
+
         int alphabetCount = 0;
         //copy special char
         for (int i=0; i<inputArray.length; i++){
